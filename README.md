@@ -1,5 +1,5 @@
 # GoIT: CSS+HTML 2.1 Course
-**Homework 5: Елементи форм. Доступність**
+**Homework 6: Адаптивний дизайн**
 
 Used technologies:
 - HTML5
