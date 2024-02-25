@@ -940,12 +940,23 @@ a {
 
   .links-list {
     display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .header-nav {
+    width: 100%;
   }
 
   .contacts-list {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    width: 100%;
     gap: 12px;
     padding: 0 16px;
   }
@@ -1039,11 +1050,24 @@ a {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    justify-content: space-between;
   }
 
   .header-section {
     position: relative;
+  }
+
+  .header-nav {
+    width: auto;
+  }
+
+  .links-list {
+    display: flex;
+    justify-content: start;
+    width: auto;
+  }
+
+  .logo {
+    margin-right: 76px;
   }
 
   .contacts-list {
