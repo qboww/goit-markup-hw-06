@@ -78,10 +78,6 @@ a {
   width: 100%;
 }
 
-.is-open {
-  display: block;
-}
-
 /*#endregion global-selectors */
 
 /*#region header*/
@@ -1450,6 +1446,11 @@ a {
   gap: 40px;
   align-items: center;
   justify-content: center;
+}
+
+
+.is-open {
+  display: block;
 }
 
 /*#endregion menu*/
