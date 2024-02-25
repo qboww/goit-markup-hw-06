@@ -219,9 +219,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order-button:focus {
-  background-color: #404bbf;
-}
+
 
 /*#endregion section-1-hero */
 
@@ -309,11 +307,6 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.social-link:hover,
-.social-link:focus {
-  background-color: #404bbf;
-}
-
 .social-icon {
   fill: #f4f4fd;
 }
@@ -345,15 +338,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.portfolio-item:hover .image-container-paragraph {
-  transform: translateY(0%);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-image-container {
@@ -432,11 +416,6 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link-footer:hover,
-.social-link-footer:focus {
-  background-color: #31d0aa;
-}
-
 .social-icon-footer {
   fill: #f4f4fd;
 }
@@ -490,11 +469,6 @@ a {
 .sub-icon {
   margin-left: 16px;
   fill: #FFF;
-}
-
-.sub-button:hover,
-.sub-button:focus {
-  background-color: #404bbf;
 }
 
 /*#endregion footer */
@@ -746,6 +720,7 @@ a {
   .menu-link {
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
 
   .header-section {
@@ -873,6 +848,7 @@ a {
   }
 
   .portfolio-item {
+    cursor: pointer;
     width: 288px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -1239,7 +1215,13 @@ a {
     justify-content: center;
   }
 
-  .order-button:hover {
+  .order-button:hover,
+  .order-button:focus {
+    background-color: #404bbf;
+  }
+
+  .social-link:hover,
+  .social-link:focus {
     background-color: #404bbf;
   }
 
@@ -1332,6 +1314,15 @@ a {
     border-top: none;
   }
 
+  .portfolio-item:hover .image-container-paragraph {
+    transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+
+  .portfolio-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+
   /*#endregion section-4-portfolio*/
 
   /*#region footer*/
@@ -1356,6 +1347,16 @@ a {
 
   .footer-container-left {
     padding-right: 120px;
+  }
+
+  .social-link-footer:hover,
+  .social-link-footer:focus {
+    background-color: #31d0aa;
+  }
+
+  .sub-button:hover,
+  .sub-button:focus {
+    background-color: #404bbf;
   }
 
   /*#endregion footer*/
