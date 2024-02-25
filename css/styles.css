@@ -257,8 +257,6 @@ a {
 /*#endregion section-2-content */
 
 /*#region section-3-team*/
-
-
 .team-header {
   font-size: 36px;
   line-height: 1.11;
@@ -347,31 +345,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.portfolio-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.portfolio-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
-.portfolio-item {
-  width: calc((100% - 48px) / 3);
-  cursor: pointer;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.project-container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 
 .portfolio-item:hover .image-container-paragraph {
@@ -916,6 +889,31 @@ a {
   }
 
   /*#endregion section-3-team*/
+
+  /*#region section-4-portfolio*/
+  .portfolio-section {
+    padding: 96px 0;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 48px;
+  }
+
+  .portfolio-item {
+    width: 288px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .project-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+
+  /*#endregion section-4-portfolio*/
 }
 
 @media (min-width: 768px) {
@@ -1061,6 +1059,35 @@ a {
   }
 
   /*#endregion section-3-team*/
+
+  /*#region section-4-portfolio*/
+  .portfolio-section {
+    padding: 96px 0;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 72px;
+    column-gap: 24px;
+    width: 736px;
+
+  }
+
+  .portfolio-item {
+    width: 356px;
+  }
+
+  .project-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+
+  /*#endregion section-4-portfolio*/
 }
 
 @media (min-width: 1158px) {
@@ -1199,6 +1226,33 @@ a {
   }
 
   /*#endregion section-3-team*/
+
+  /*#region section-4-portfolio*/
+  .portfolio-section {
+    padding: 120px 0;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 40px;
+    width: 1128px;
+  }
+
+  .portfolio-item {
+    cursor: pointer;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .project-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+
+  /*#endregion section-4-portfolio*/
 }
 
 /*#endregion media*/
