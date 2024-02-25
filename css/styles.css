@@ -189,7 +189,7 @@ a {
   background-color: #2e2f42;
   padding: 188px 0;
   margin: 0 auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/pictures/misc/hero-background.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(.../images/pictures/misc/hero-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
