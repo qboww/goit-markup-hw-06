@@ -834,7 +834,15 @@ a {
 
   /*#region section-1-hero*/
   .motto-header {
+    width: 216px;
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--white);
   }
 
   .hero-section {
@@ -886,11 +894,18 @@ a {
     list-style: none;
     gap: 24px;
     padding: 0;
+    margin: 0 auto;
+    width: 288px;
   }
 
   .content-item {
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 72px;
+  }
+
+  .content-item:last-child {
+    padding-bottom: 0px;
   }
 
   /*#endregion section-2-content*/
@@ -943,7 +958,14 @@ a {
 
   /*#region section-1-hero*/
   .motto-header {
+    width: 496px;
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
   }
 
   .hero-section {
@@ -965,7 +987,6 @@ a {
   .content-paragraph {
     text-align: start;
     padding: 0px 0px;
-    width: auto;
   }
 
   .content-header {
@@ -983,12 +1004,18 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
     column-gap: 24px;
     row-gap: 72px;
+    width: 736px;
+    padding: 0;
+    margin: 0;
   }
 
   .content-item {
-    flex-basis: calc((100% - 24px) / 2);
+    padding: 0;
+    margin: 0 auto;
+    width: 356px;
     text-align: center;
   }
 
