@@ -540,7 +540,6 @@ a {
     text-transform: capitalize;
     text-align: center;
     color: var(--white);
-    margin-bottom: 72px;
   }
 
   .hero-section {
@@ -792,7 +791,6 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
-    margin-bottom: 36px;
   }
 
   .hero-section {
@@ -1007,7 +1005,6 @@ a {
   /*#region section-1-hero*/
   .motto-header {
     font-size: 56px;
-    margin-bottom: 48px;
   }
 
   .hero-section {
@@ -1170,6 +1167,8 @@ a {
 
   /*#endregion footer*/
 }
+
+
 
 /*#endregion media*/
 
