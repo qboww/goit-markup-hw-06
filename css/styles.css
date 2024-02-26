@@ -779,6 +779,14 @@ a {
     font-size: 12px;
   }
 
+  .nav-link {
+    color: #2e2f42;
+  }
+
+  .nav-link-studio {
+    color: #404bbf;
+  }
+
   /*#endregion header*/
 
   /*#region section-1-hero*/
